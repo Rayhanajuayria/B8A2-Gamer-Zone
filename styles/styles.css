@@ -4,8 +4,40 @@
     font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
   }
+  /* header section start */
+span{
+    color: #FF42A5;
+
+}
 .logo{
     display: flex;
     margin: 40px;
     gap: 20px;
+}
+.nav_container{
+     display: flex;
+     justify-content: space-around;
+     
+
+}
+nav ul  {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    
+
+}
+.Menu_section{
+    display: flex;
+    padding: 30px;
+    gap: 40px;
+    
+    
+}
+.icon_menu{
+    display: flex;
+    gap: 20px;
+    width: 262px;
+    height: 56px;
+    align-items: center;
 }
