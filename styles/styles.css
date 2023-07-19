@@ -177,7 +177,7 @@ background-clip: text;
  }
  
  .bg-1{
-   background-image: url('/images/Rectangle\ 4.png');
+   background-image: url('/images/g1.png');
    background-repeat: no-repeat;
    width: 100%;
    height: 100%;
@@ -185,21 +185,21 @@ background-clip: text;
  }
  
  .bg-2{
-   background-image: url('/images/Rectangle\ 5.png');
+   background-image: url('/images/g2.png');
    background-repeat: no-repeat;
    width: 100%;
    height: 100%;
    border-radius: 10px;
  }
  .bg-3{
-   background-image: url('/images/Rectangle\ 7.png');
+   background-image: url('/images/g4.png');
    background-repeat: no-repeat;
    width: 100%;
    height: 100%;
    border-radius: 10px;
  }
  .bg-4{
-   background-image: url('/images/Rectangle\ 6.png');
+   background-image: url('/images/g4.png');
    background-repeat: no-repeat;
    width: 100%;
    height: 100%;
