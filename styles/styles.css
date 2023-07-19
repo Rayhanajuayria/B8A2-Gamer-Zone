@@ -46,7 +46,7 @@ nav ul  {
     align-items:center ;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 10px;
+    padding: 5px;
 }
 /* Banner content start */
 main{
@@ -63,7 +63,7 @@ main{
 
 }
 .banner{
-    padding: 40px;
+    padding:40px;
     
    
 }
@@ -128,8 +128,9 @@ background-clip: text;
         color: #0B0223;
         text-align: center;
         font-family: Work Sans;
-        font-size: 48px;
+        font-size: 35px;
         font-weight: 700;
+        padding-top: 5px;
     }
     .two{
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -244,7 +245,7 @@ background-clip: text;
    margin-top: 10px;
    font-size: 16px;
  }
- /* online funny vedio section End */
+ /* online funny video section End */
  
  
  
@@ -305,7 +306,7 @@ background-clip: text;
  }
  
  
- /* section number 5  action component*/
+ /* section  action component*/
  
  .action___container{
    display: grid;
@@ -316,5 +317,11 @@ background-clip: text;
    justify-content: center;
    align-items: center;
    gap: 10px;
+ }
+ /* footer section */
+ .footer_section{
+ width: 1920px;
+height: 636px;
+color: #0B0223;
  }
     
