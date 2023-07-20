@@ -235,7 +235,7 @@ background-clip: text;
 }
 
 .bg-1{
-  background-image: url('./images/rectangle 4.png');
+  background-image: url('/images/rectangle\ 4.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -245,7 +245,7 @@ background-clip: text;
 }
 
 .bg-2{
-  background-image: url('./images/Rectangle 5.png');
+  background-image: url('/images/Rectangle 5.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -255,7 +255,7 @@ background-clip: text;
 
 }
 .bg-3{
-  background-image: url('./images/Rectangle 7.png');
+  background-image: url('/images/Rectangle 7.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -265,7 +265,7 @@ background-clip: text;
   
 }
 .bg-4{
-  background-image: url('./images/Rectangle 6.png');
+  background-image: url('/images/Rectangle 6.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
