@@ -365,7 +365,7 @@ background-clip: text;
 }
 
 #instant__img{
-  background-image: url('/images/Rectangle\ 55.png');
+  background-image: url('/images/./Rectangle\ 55.png');
   border-radius: 10px;
   background-size: cover;
   background-position: center;
