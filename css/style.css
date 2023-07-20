@@ -33,7 +33,8 @@ nav{
     margin-left: 10px;
 }
 .nav___list span{
-   color: violet;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  
 }
  .nav__container .nav___list{
   display: flex;
@@ -56,7 +57,11 @@ nav{
  }
 
  .nav__container .nav___list li a:hover {
-    color: rgb(190, 4, 76);
+    /* color: rgb(190, 4, 76); */
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
    
  }
 
@@ -110,9 +115,11 @@ nav{
   font-family: 'Poppins', sans-serif;
   font-weight: 900rem;
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, rgb(231, 15, 148) , rgb(132, 8, 148));
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .banner__box ul li {
@@ -228,7 +235,7 @@ background-clip: text;
 }
 
 .bg-1{
-  background-image: url('/images/Rectangle 4.png');
+  background-image: url('./images/rectangle 4.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -238,7 +245,7 @@ background-clip: text;
 }
 
 .bg-2{
-  background-image: url('/images/Rectangle 5.png');
+  background-image: url('./images/Rectangle 5.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -248,7 +255,7 @@ background-clip: text;
 
 }
 .bg-3{
-  background-image: url('/images/Rectangle 7.png');
+  background-image: url('./images/Rectangle 7.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -258,7 +265,7 @@ background-clip: text;
   
 }
 .bg-4{
-  background-image: url('/images/Rectangle 6.png');
+  background-image: url('./images/Rectangle 6.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -329,26 +336,28 @@ background-clip: text;
  }
 
 .text-color{
-   color: hsl(324, 85%, 49%);
+    
+    
 }
 
- .instant__text h3{
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ .instant__text__color{
+  color: #FF42A5;
 
 }
 .instant__text h3{
    font-size: 36px;
    text-align: right;
    margin-right: 100px;
+   font-weight:800px;
+   
 }
 .instant__text p{
   font-size: 16px;
   text-align: right;
   margin-right: 100px;
+  
 }
+
 .instant__container{
    display: flex;
    gap: 100px;
