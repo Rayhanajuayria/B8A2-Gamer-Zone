@@ -1,0 +1,885 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* start navbar section  */
+
+nav{
+    background-color: hwb(0 100% 0%);
+    box-shadow: 1px 2px whitesmoke;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav__container{
+    padding-right: 80px;
+    padding-left: 80px;
+ }
+ .nav___list img{
+    margin-top: 10px;
+   width: 100%;
+}
+.nav___list p{
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.nav___list span{
+   color: violet;
+}
+ .nav__container .nav___list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__container .nav___list li {
+   list-style-type: none;
+   margin-left: 10px; 
+  
+}
+.nav__container .nav___list li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #161414;
+    transition: all 1s;
+   
+ }
+
+ .nav__container .nav___list li a:hover {
+    color: rgb(190, 4, 76);
+   
+ }
+
+ .nav__container .nav___list li a button{
+    background-color: gray;
+    margin-left: 10px;
+    width: 140px;
+    padding: 0px 8px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 2s ease-in-out;
+}
+.nav__container .nav___list li a button:hover{
+    background-color: rgb(245, 110, 155);
+    color: #ffff;
+}
+
+
+
+/*==================== end start navbar section ========================== */
+
+/* ============= start banner section area =======================*/
+
+.banner__container__section{
+   width: 1200px;
+   height: auto;
+   justify-content: center;
+   align-items: center;
+   margin-inline: auto;
+  
+}
+.banner__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner__box{
+
+  width: 50%;
+}
+
+.banner__box p{
+  font-size:30px;
+}
+
+.banner__box h3{
+  font-size: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, rgb(231, 15, 148) , rgb(132, 8, 148));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.banner__box ul li {
+  list-style-type: none;
+}
+
+.btn__flex{
+  display: flex;
+  gap: 10px;
+}
+
+.btn__hero {
+  background-color: rgb(236, 93, 172);
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 20px;
+  color: #ffff;
+  transition: all 3s ease-in-out;
+
+}
+.btn__hero {
+  background-color: rgb(236, 93, 172);
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 20px;
+  color: #ffff;
+  transition: all 3s ease-in-out;
+
+}
+.btn__hero:hover{
+  background-color: rgb(13, 153, 153);
+}
+.btn__heros {
+  background-color: rgb(13, 153, 153);
+  width: 120px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 20px;
+  color: #ffff;
+  transition: all 3s ease-in-out;
+}
+.btn__heros:hover{
+  background-color: rgb(236, 93, 172);
+}
+
+.banner__box img{
+  width: 100%;
+  height: auto;
+}
+/*======================= banner end design====================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+/*================ number 3 game section area start ========== 
+.================*/
+.game__main__container{
+   margin-top: 40px;
+   display: flex;
+   justify-self: center;
+   flex-direction: column;
+   margin-right: 80px;
+   margin-left: 60px;
+}
+.game__text{
+ text-align: center;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.game__text h3{
+  font-size: 32px;
+}
+
+.game__text span{
+    
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.game__container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+
+}
+
+#opacity{
+  opacity: 2.0;
+  
+}
+
+
+#opacity:hover {
+  opacity: 0.5;
+}
+
+.bg-1{
+  background-image: url('/images/Rectangle 4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 400px;
+ border-radius: 10px;
+}
+
+.bg-2{
+  background-image: url('/images/Rectangle 5.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+
+}
+.bg-3{
+  background-image: url('/images/Rectangle 7.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  
+}
+.bg-4{
+  background-image: url('/images/Rectangle 6.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.game__box{
+	position:relative;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+}
+.video__btn{
+    position: relative;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+}
+.video__btn{
+	position: absolute;
+    z-index: 2;
+    display: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+.video__btn i{
+  font-size: 30px;
+}
+.game__box:hover{
+  border-left: 3px solid rgb(238, 31, 186);
+  border-top: 3px solid rgb(238, 31, 186);
+  border-bottom: 3px solid rgb(238, 31, 186);
+  border-radius: 10px;
+}
+.game__box:hover .video__btn{ 
+	display:block;
+}
+
+
+#text{
+  margin-top: 10px;
+  font-size: 16px;
+}
+/* end game 4 img section are */
+
+
+
+/* start  section number 4 play instantly downloads 
+  */ 
+.high___container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin-top: 50px;
+}
+.text__high{
+  font-size: 28px;
+  text-align: right;
+  margin-left: 20px;
+ }
+
+.text-color{
+   color: hsl(324, 85%, 49%);
+}
+
+ .instant__text h3{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.instant__text h3{
+   font-size: 36px;
+   text-align: right;
+   margin-right: 100px;
+}
+.instant__text p{
+  font-size: 16px;
+  text-align: right;
+  margin-right: 100px;
+}
+.instant__container{
+   display: flex;
+   gap: 100px;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.instant__box{
+   width: 45%;
+}
+
+#instant__img{
+  background-image: url('/images/Rectangle\ 55.png');
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 634px;
+  height: 450px;
+  position: relative;
+}
+.instant__mini img{
+  width: 200px;
+}
+.instant__mini{
+  position: absolute;
+  bottom: -20%;
+  left: -16%;
+}
+
+
+/* section number 5  action component*/
+
+.action____main___container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin-inline: auto;
+   margin-top: 10%;
+   }
+
+.action___container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.action__box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  transition: all 1s ease-in-out;
+}
+.action__box img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.action__box:hover{
+  border: 2px solid rgb(252, 5, 79);
+  border-radius: 50px;
+}
+
+/*  power section container */
+
+
+/* section number 5  action component*/
+
+.power____main___container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin-inline: auto;
+   margin-top: 30px;
+  
+  
+  }
+
+.power___container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.power__box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: all 1s ease-in-out;
+}
+
+.power__box img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+/*  power section end */
+
+
+.main___footer__container{
+  background-color: rgb(37, 25, 65);
+  margin-top: 100px;
+}
+.logo__container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo__container img{
+  margin-top: 20px;
+}
+.footer___section{
+  display: flex;
+  margin-inline: auto;
+  justify-content: center;
+  width: 800px;
+  height: 100px;
+  color: #fff;
+ 
+}
+.text__container{
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+
+/*  font icon add */
+
+.font__icon_section{
+  display: flex;
+  margin-inline: auto;
+  justify-content: center;
+  width: 800px;
+  color: #fff;
+}
+.social__media{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.social__media .font_icon li{
+   list-style-type: none;
+}
+.social__media .font_icon li a{
+  text-decoration: none;
+  font-size: 28px;
+  color: #ffff;
+  transition: all 1s ease-in-out;
+}
+.social__media .font_icon li a:hover{
+  font-size: 36px;
+  color: #f1027a;
+}
+
+
+.footer__end{
+  padding: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* media screen=================================responsive===================================================  */
+
+@media screen and (max-width: 668px) {
+
+  nav{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 40%;
+   
+}
+
+  .banner__container__section{
+    width: 100%;
+  }
+.banner__container{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.banner__box{
+  width: auto !important;
+  margin-top: 20px;
+
+}
+.banner__box p{
+  font-size: 42px !important;
+  
+}
+.banner__box h3{
+  font-size: 48px !important;
+  
+}
+.banner__box ul li{
+ font-size: 22px !important;
+}
+
+.banner__box img{
+  width: 100%;
+}
+
+/*  banner design end  */
+
+
+/*  game section start */
+
+.game__main__container{
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.game__text h3{
+  font-size: 24px !important;
+}
+.game__text p{
+  font-size: x-small;
+}
+.bg-1, .bg-2, .bg-3, .bg-4{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 10px;
+}
+
+
+.game__container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr) !important;
+  gap: 10px;
+}
+
+.game__box{
+  width: 100% !important; 
+}
+
+.game__box:hover{
+  border: 3px solid rgb(238, 31, 186);
+  
+  border-radius: 10px;
+}
+
+
+/*  game section end ok all  */
+
+
+
+
+.high___container{
+  width: 100%;
+  height: auto;
+
+}
+.text__high{
+ font-size: 24px;
+ text-align: center;
+ margin-left: 10px;
+}
+
+
+
+.instant__container{
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.instant__box{
+  width: 100%;
+}
+
+.instant__mini img{
+ width: 50% !important;
+}
+
+
+.instant__text h3{
+  font-size: 24px !important;
+  text-align: center;
+  margin-right: 30px;
+
+}
+.instant__text p{
+ font-size: 14px !important;
+ text-align: center;
+  margin-right: 30px;
+}
+
+
+/* instant__container end  */
+
+/*  action section add */
+
+
+.action____main___container{
+   margin-top: 10%;
+   }
+
+.action___container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.action__box img{
+  width: 100%;
+
+}
+.action__box p{
+  font-size: xx-small !important;
+}
+
+.power___container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+
+}
+
+.power__box img{
+  width: 100%;
+}
+.power__box p{
+  font-size: xx-small !important;
+}
+
+.action__remove{
+  display: none;
+}
+
+
+
+#power__remove{
+ display: none;
+}
+
+
+
+
+
+/*  footer container */
+.text__container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.font__icon_section{
+  margin-top: 20px;
+  width: 100%;
+ 
+}
+
+.social__media{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 
+}
+
+
+
+
+  @media screen and (max-width: 992px) {
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .nav__container{
+        display: flex;
+        flex-direction: column;
+     }
+     .nav___list img{
+        margin-top: 10px;
+        width: 100%;
+     }
+     .nav___list{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .nav__container .nav___list li a{
+      color: black;
+    }
+
+
+
+    .banner__container__section{
+      margin-top: 20%;
+      display: flex;
+     
+   }
+  
+  .banner__container{
+    display: flex;
+    justify-content: space-around;;
+    align-items: center;
+    padding: 20px;
+  }
+  .banner__box{
+    width: 100%;
+  }
+  
+  .banner__box img{
+   width: 100%;
+  }
+
+
+    /* .game__container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    
+    }
+ */
+  /*  4 section area   responice*/
+
+   
+  .high___container{
+    width: 100%;
+  }
+  .instant__container{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+#instant__img{
+  width: 100%;
+  position: relative;
+}
+.instant__mini img{
+  width:50%;
+  margin-left: 10px;
+}
+ 
+
+.action___container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-x: hidden;
+  padding: 30px;
+  margin-left: 20px;
+}
+
+.action____main___container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin-inline: auto;
+   margin-top: 30%;
+  }
+
+  .action__box {
+    margin-left: 22px;
+  }
+
+
+
+  .power___container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+    
+  }
+  
+  .power__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 34px;
+    transition: all 1s ease-in-out;
+  }
+ 
+
+  .main___footer__container{
+    background-color: rgb(37, 25, 65);
+    margin-top: 100px;
+    overflow-x: hidden;
+  }
+ 
+  .logo__container img{
+    margin-top: 20px;
+  }
+  .footer___section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+   
+  }
+   
+  
+}}
+
+ 
